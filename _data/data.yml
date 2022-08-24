@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Antonio Requena
+    tagline: .NET Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: lagseeing@pm.me
+    phone: 
+    timezone: America/Caracas Timezone
+    citizenship:
+    website: antoniorequena.dev #do not add http://
+    linkedin: 
+    xing: 
+    github: 
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C1
+
+    interests:
+      - item: InfoSec
+        link:
+
+      - item: Karaoke
+        link:
+
+      - item: Playing Instruments
+        link:
+
+career-profile:
+    title: Professional Summary
+    summary: |
+      Long time PHP and Laravel Developer, I fell in love with .NET Framework and .NET Core (now just .NET) during my time developing trouble 
+      ticketing software for Telecom and Internet Provider Companies. Since then, I have used .NET from basic CMS type applications to creating plugins for established eCommerce solutions, such as NopCommerce and Umbraco.
+education:
+    - degree: Ingeniería informática
+      university: Instituto Universitario de Tecnología de Los Llanos
+      time: 2010 - 2016
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: 
+      university: 
+      time: 
+      details: |
+        
+experiences:
+    - role: .NET Developer
+      time: 2020 - Present
+      company: CANTV, Venezuela & Freelancing
+      details: |
+        Worked on launching a drop-shipping eCommerce platform for the PVC Tubing Industry, with light CRM , ERP, and Bill of Material features.
+        Currently working on porting some Laravel based apps to ASP.NET Core.
+    - role: Laravel Developer
+      time: 2017 - 2020
+      company: CANTV, Venezuela
+      details: |
+        Worked on RESTful APIs and web applications written in Lumen and Laravel, bridging the gap from legacy applications and modern software stack.
+        Worked on Trouble Ticketing software, Helpdesk-like software, Data crunching software, Network Monitoring software.
+    - role: Classic ASP Developer
+      time: 2016 - 2017
+      company: CANTV, Venezuela
+      details: |
+        Worked on maintaining and improving aging ASP applications, and eventually replaced them with RESTful APIs in the form of microservices.
+projects:
+    title: Skills
+    intro: >
+
+    assignments:
+      - title: .NET Core
+        tagline: "ASP.NET Core, ASP.NET MVC."
+
+      - title: Relational Databases
+        tagline: "MSSQL, MySQL, Postgres."
+
+      - title: Cloud Platforms
+        tagline: "Linode, Heroku, Digital Ocean, AWS, Virmach."
+
+      - title: HTML5 & JavaScript
+        tagline: "Bootstrap, Bulma, Turbolinks, jQuery."
+
+      - title: PHP
+        tagline: "Laravel, Codeigniter."
+      
+      - title: Version Control
+        tagline: "Git, Subversion, Mercurial."
